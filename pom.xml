@@ -524,5 +524,15 @@
         </plugins>
         ...
     </build>
-    ...
-</project>
+    ...   
+    <distributionManagement>  
+ <!-- Publish the versioned releases here -->  
+ <repository>  
+  <id>123</id>  
+  <name>jenkins_build</name>  
+  <url>http://wireshark:8081/nexus/content/repositories/123/</url>  
+ </repository>  
+  
+</distributionManagement>
+    
+  </project>
