@@ -525,14 +525,20 @@
         ...
     </build>
     ...   
-    <distributionManagement>  
- <!-- Publish the versioned releases here -->  
- <repository>  
-  <id>123</id>  
-  <name>jenkins_build</name>  
-  <url>http://wireshark:8081/nexus/content/repositories/123/</url>  
- </repository>  
-  
+ <distributionManagement>
+
+     <repository>
+         <id>123</id>
+         <name>jenkins_build</name>
+         <url>http://wireshark:8081/nexus/content/repositories/123/</url>
+     </repository>
+
+     <snapshotRepository>
+         <id>snapshots</id>
+         <name>Internal Snapshots</name>
+         <url>http://wireshark:8081/nexus/content/repositories/snapshots/</url>
+     </snapshotRepository>
+
 </distributionManagement>
     
   </project>
