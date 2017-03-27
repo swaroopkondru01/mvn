@@ -529,8 +529,8 @@
 
      <repository>
          <id>123</id>
-         <name>jenkins_build</name>
-         <url>http://wireshark:8081/nexus/content/repositories/123/</url>
+         <name>Releases</name>
+         <url>http://wireshark:8081/nexus/content/repositories/releases/</url>
      </repository>
 
      <snapshotRepository>
