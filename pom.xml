@@ -532,13 +532,7 @@
          <name>Releases</name>
          <url>http://54.87.230.236:8081/repository/Releases/</url>
      </repository>
-
-     <snapshotRepository>
-         <id>snapshots</id>
-         <name>Snapshots</name>
-         <url>http://wireshark:8081/nexus/content/repositories/snapshots/</url>
-     </snapshotRepository>
-
+     
 </distributionManagement>
     
   </project>
